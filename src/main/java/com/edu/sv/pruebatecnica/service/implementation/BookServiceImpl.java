@@ -35,6 +35,13 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
+    public List<BookResponse> findAll() {
+        return bookRepository.findAll().stream()
+                .map(bookMapper::toBookResponse)
+                .collect(Collectors.toList());
+    }
+
+    @Override
     public BookResponse createBook(BookRequest bookRequest) {
         Book book = new Book();
         bookMapper.updateBookFromRequest(bookRequest, book);

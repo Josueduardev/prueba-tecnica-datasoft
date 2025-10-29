@@ -19,6 +19,11 @@ public class BookController {
 
     private final BookService bookService;
 
+    @GetMapping
+    public List<BookResponse> getAllBooks() {
+        return bookService.findAll();
+    }
+
     @GetMapping("/category/{id}")
     public List<BookResponse> getAllBooksByCategories(@PathVariable final Long id) {
         return bookService.findAllByCategory(id);

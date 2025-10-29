@@ -7,6 +7,8 @@ import java.util.List;
 
 public interface BookService {
 
+    List<BookResponse> findAll();
+
     BookResponse findById(final Long id);
 
     List<BookResponse> findAllByCategory(Long id);
