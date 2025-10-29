@@ -196,8 +196,15 @@ El proyecto está configurado para utilizar una base de datos MySQL. Antes de in
     ```bash
     ./mvnw spring-boot:run
     ```
+5. **Insertar datos dentro de la base de datos**
+    Puede utilizar el script SQL proporcionado en el archivo `data.sql` dentro del proyecto para insertar datos de prueba en la base de datos. Ejecute el script en su base de datos MySQL:
+    ```sql
+    SOURCE /ruta/a/su/proyecto/prueba-tecnica/INSERTS.sql;
+   
 
-Una vez iniciada, la aplicación estará accesible en `http://localhost:8080`.
+Una vez iniciada, la aplicación estará accesible en `http://localhost:8080` y puede probar los endpoints.
+
+
 
 ## Demostración con Postman
 

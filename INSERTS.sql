@@ -40,8 +40,8 @@ VALUES
     19.99, 
     'ACTIVO', 
     'https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg', 
-    1, -- Categoría 1: Drama
-    1  -- Usuario 1: josue123
+    1,
+    1
 ),
 (
     'Dune', 
@@ -49,8 +49,8 @@ VALUES
     24.99, 
     'ACTIVO', 
     'https://upload.wikimedia.org/wikipedia/en/d/de/Dune_cover.jpg', 
-    2, -- Categoría 2: Ciencia Ficción
-    2  -- Usuario 2: kevin123
+    2,
+    2
 ),
 (
     'It (Eso)', 
@@ -58,8 +58,8 @@ VALUES
     27.99, 
     'ACTIVO', 
     'https://upload.wikimedia.org/wikipedia/en/5/5a/It_cover.jpg', 
-    3, -- Categoría 3: Terror
-    3  -- Usuario 3: roberto123
+    3,
+    3
 ),
 (
     'Akira (Manga Tomo 1)', 
@@ -67,8 +67,8 @@ VALUES
     39.99, 
     'ACTIVO', 
     'https://www.coverbrowser.com/image/akira/1-1.jpg', 
-    4, -- Categoría 4: Anime
-    1  -- Usuario 1: josue123
+    4,
+    1
 ),
 (
     'Cien Años de Soledad', 
@@ -76,8 +76,8 @@ VALUES
     22.99, 
     'ACTIVO', 
     'https://upload.wikimedia.org/wikipedia/en/a/a0/Cien_a%C3%B1os_de_soledad_%28book_cover%29.jpg', 
-    5, -- Categoría 5: Novela
-    2  -- Usuario 2: kevin123
+    5,
+    2
 ),
 (
     'Sin Noticias de Gurb', 
@@ -85,8 +85,8 @@ VALUES
     15.99, 
     'ACTIVO', 
     'https://pictures.abebooks.com/isbn/9788432218842-es.jpg', 
-    6, -- Categoría 6: Comedia
-    3  -- Usuario 3: roberto123
+    6,
+    3
 ),
 (
     'Clean Code', 
@@ -94,8 +94,8 @@ VALUES
     49.99, 
     'ACTIVO', 
     'https://m.media-amazon.com/images/I/41zoxjP9lcL.jpg', 
-    7, -- Categoría 7: Tecnología
-    1  -- Usuario 1: josue123
+    7,
+    1
 ),
 (
     'Cosmos', 
@@ -103,6 +103,6 @@ VALUES
     29.99, 
     'ACTIVO', 
     'https://upload.wikimedia.org/wikipedia/en/b/b2/Cosmos_by_Carl_Sagan.jpg', 
-    8, -- Categoría 8: Ciencia
-    2  -- Usuario 2: kevin123
+    8,
+    2
 );
